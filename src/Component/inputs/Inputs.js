@@ -16,7 +16,10 @@ const Inputs = () => {
         date,
         category,
       };
-      const res = await axios.post('/tasks', newTask);
+      const res = await axios.post(
+        'https://paul-todosapp.herokuapp.com/tasks',
+        newTask
+      );
       setDesc('');
 
       setDate('');
