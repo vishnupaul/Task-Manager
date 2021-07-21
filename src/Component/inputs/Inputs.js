@@ -21,7 +21,6 @@ const Inputs = () => {
         newTask
       );
       setDesc('');
-
       setDate('');
     } catch (error) {
       console.log(error);
