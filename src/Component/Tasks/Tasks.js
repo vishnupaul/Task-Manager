@@ -7,15 +7,11 @@ const Tasks = (submitTask) => {
 
   const deleteTask = async (_id) => {
     console.log(_id);
-    const res = await axios.delete(
-      'https://paul-todosapp.herokuapp.com/tasks/' + _id
-    );
+    const res = await axios.delete('/tasks/' + _id);
     fatchTask();
   };
   const fatchTask = async () => {
-    const responce = await axios.get(
-      'https://paul-todosapp.herokuapp.com/tasks'
-    );
+    const responce = await axios.get('/tasks');
     setTasks(responce.data);
   };
   useEffect(() => {
