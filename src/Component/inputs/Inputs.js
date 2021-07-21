@@ -23,7 +23,6 @@ const Inputs = () => {
       setDesc('');
 
       setDate('');
-      window.alert('post');
     } catch (error) {
       console.log(error);
     }
