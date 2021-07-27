@@ -147,10 +147,10 @@ p {
 }
 .section-title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .section-title h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .section-title span {
   color: var(--clr-primary-5);
@@ -182,7 +182,7 @@ p {
   margin: 1rem 0;
 }
 .contact-head h2 {
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 .contact-form {
   width: 100%;
@@ -274,12 +274,9 @@ li p {
   text-align: center;
   transition: 0.3s linear;
   cursor: pointer;
-  width: 0;
-  opacity: 0;
 }
 li:hover span {
-  width: 0.8rem;
-  opacity: 1;
+  transform: scale(1.5);
 }
 
 .category-btn {
