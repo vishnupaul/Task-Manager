@@ -32,7 +32,7 @@ const Inputs = () => {
         <form method='POST' className='contact-form'>
           <div className='section-title contact-head'>
             <h2>
-              Todo<span>App</span>
+              Task <span>Manager</span>
             </h2>
           </div>
           {/* form control */}
